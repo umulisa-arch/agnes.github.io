@@ -98,7 +98,11 @@
         }
         #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6 {
                 float: left;
-                align-items: start;
+                align-items: center;
+                margin-left: -150px;
+                background-color: transparent;
+                text-align: left;
+                padding-right: 100px;
                 /* display: inline-block; */
         }
 
@@ -619,4 +623,7 @@ h1{
        
         transform: translateY(20px);
 }
+
+/* new css from ai */
+
 
