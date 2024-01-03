@@ -1,0 +1,598 @@
+@media (max-width: 800px) {
+        .container1{
+                flex-direction: column;
+                align-items: center;
+        }
+        #links {
+          /* text-align: center; */
+          flex-direction: column;
+          /* padding-top: 50px; */
+        }
+        .certificate{
+                margin-left: 1000px;
+        }
+        
+        .logo{
+                display: none;
+        }
+      
+        header a {
+          flex-direction: column;
+        }
+        #projects{
+                flex-direction: column;
+                
+        }
+        #thirdprojects{
+                flex-direction: column;
+               
+        }
+        .mainp1, .mainp2, .mainp3, .mainp4, .mainp5, .mainp6{
+                overflow: hidden;
+                margin-left: 0px;
+                
+                
+                
+        }
+        /* .service1{
+                text-align: center;
+
+        } */
+        .h2contact{
+                text-align: center;
+        }
+        
+      
+      }
+
+@media(max-width:579px){
+    .p1 img{
+        width: 400px;
+        height: 300px;
+        margin-left: 20px;
+        overflow: hidden;
+        
+
+    } 
+       
+}
+@media (max-width: 508px){
+       .p1 img{
+                width: 250px;
+                height: 175px;
+               margin-left: 60px;
+                overflow: hidden;
+                
+        
+        } 
+}
+@media(max-width: 537px){
+        .mailcall{
+                margin-left: 25px;
+        }
+}
+@media(max-width:926px){
+        .MainAbout{
+                flex-direction: column;
+                align-items: center;
+                overflow: hidden;
+        }
+        
+        .Maincontact{
+                flex-direction: column;
+                align-items: center;
+        }
+        .mainservice{
+                flex-direction: column;
+        }
+
+}
+
+
+
+
+*{
+        font-family: 'Poppins', sans-serif;
+}
+      body{
+        background-color: #3D77A0;
+        
+    
+}
+ .namehome{
+        font-family: 'poppins' sans-serif;
+        font-size: 28px;
+        color: rgb(25, 9, 65);
+        margin-left: -8px;
+        
+
+}
+/*@keyframes mehome{
+        0%{
+                transform: translateY(100px);
+                opacity: 0;
+        } */
+
+/* } */
+.navigation{
+        display: inline;
+        align-items: center;
+        justify-items: center;
+        color: white;
+        border: 2px solid black;
+        width: auto;
+        text-align: center;
+
+
+}
+a{
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 2000px;
+    height: 500px;
+
+    
+}
+#links{
+    /*text-align: center;*/
+    /* padding:  20px; */
+    padding-top: 20px;
+    /* width: 140px; */
+    /* height: 50px; */
+    /* border-radius: 60px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 15, 49); 
+    margin-left: -7px;
+    margin-right: -10px;
+    margin-top: -8px;
+    /* margin:  10px;
+    margin-top: -10px;
+        */
+      
+    }
+a{
+        text-decoration: none;
+    }
+#a1:hover{
+        background-color: chocolate;
+        /* background-color: rgb(112, 167, 207);
+        color: black; */
+
+}
+#a2:hover{
+        background-color: chocolate;
+
+}
+#a3:hover{
+        background-color: chocolate;
+
+}
+#a4:hover{
+        background-color: chocolate;
+
+}
+#a5:hover{
+        background-color: chocolate;
+
+}
+#a6:hover{
+        background-color: chocolate;
+
+}
+   
+.link:visited {
+        color: rgb(59, 207, 14); /* Change color for visited links */
+      }
+
+/* a:hover{
+        background-color: #3D77A0;
+      } */
+.logo{
+        width: 8rem;
+        height: 5rem;
+        border-radius: 50%;
+      }
+.container1{
+        margin-left: 20px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+      }
+.welcome{
+        font-size: 20px;
+        color: rgb(199, 207, 214);
+}
+.mehome{
+        font-size: 30px;
+        color: white;
+
+      }
+.homephoto{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 250, 0.5);
+        transition: box-shadow 1s ease-in-out;
+
+
+      }
+.namehome{
+        color: white;
+}
+.rukundo{
+        color: rgb(0, 255, 0);
+}
+.frontend{
+margin-left: 18px;
+/* color: rgb(56, 40, 107); */
+color: rgb(199, 207, 214);
+font-weight: bold;  
+font-size: 20px;
+
+  
+}
+.socialmedia{
+        padding: 60px;
+        justify-content: space-between;
+        margin-top: 2px;
+      }
+.social1, .social2{
+        margin-top: 50px;
+        padding: 20px;
+        
+        
+      }
+
+ .social1:hover, .social2:hover, .social3:hover, .social4:hover{
+        background-color: rgb(0, 0, 255);
+ }     
+      /*.social1:hover{
+background-color: rgb(21, 117, 85);
+      }*/
+      
+.certificate{
+        width: 80px;
+        height: 5px;
+        background-color: rgb(15, 15, 49);
+        border-radius: 30px;
+        margin-left: 20px;
+      }
+.certificate:hover{
+        background-color: #0b87df;
+  
+      }
+
+.phoneparagraph{
+        text-align: center;
+        margin-top: 100px;
+        background-color: rgb(15, 15, 49);
+        height: 100px;
+        align-items: center;
+        /* border-radius: 50px; */
+        padding: 20px;
+        padding-top: 120px;
+        color: white;
+        margin-bottom: -6px;
+        margin-left: -7px;
+        margin-right: -10px;
+        /* position: fixed;
+        bottom: 0; */
+}
+.phone{
+        padding-top: 100px;
+}
+/* .phone{
+        position: fixed;
+        bottom: 0;
+        right: ;
+} */
+.mailcall{
+width: 450px;
+height: 200px;
+background-color: rgb(225, 197, 197);
+margin-left: 35px;
+border-radius: 10px;
+border: 2px solid blue;
+/* box-shadow: black; */
+box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.mailcall:hover{
+        background-color:rgb(61, 119, 160);
+        /* background-color: rgb(30, 30, 109); */
+        
+}
+.pmailcall{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 50px;
+}
+.spanemail{
+        color: blue;
+}
+.h2contact{
+        margin-left: 35px;
+        color: aliceblue;
+}
+     
+.contact2{
+        width: 450px;
+        height: 720px;
+        background-color: rgb(225, 197, 197);
+        border-radius: 10px;
+        box-shadow: black;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.contact2:hover{
+        background: rgb(61, 119, 160);
+}
+
+#nameError, #emailError, #phoneError, #subjectError, #messageError{
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+}
+.Maincontact{
+        justify-content: space-around;
+        display: flex;
+        margin-top: 10rem;
+}
+form{
+        align-items: center;
+        border-top: 5px solid rgb(40, 11, 185);
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: center;
+        padding-left: 75px;
+        
+}
+.alert {
+        display: none;
+        padding: 15px;
+        background-color: #54a008;
+        color: white;
+        border-radius: 5px;
+        
+      }
+input{
+        padding: 6px;
+        border-radius: 5px;
+        width: 250px;
+}
+textarea{
+        border-radius: 5px;
+}
+.sendmessage{
+        color: rgb(255, 255, 255);
+        background-color: rgb(40, 11, 185);
+        border-radius: 5px;   
+        padding: 10px;
+        cursor: pointer;
+        width: 270px;
+}
+.sendmessage:hover{
+        background-color: rgb(93, 154, 198);
+        /* color: black; */
+}
+.MainAbout{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+}
+.about1{
+        background-color: rgb(193, 193, 210);
+        width: 800px;
+        color: black;
+}
+.about2{
+        background-image: url(images/AgneI.jpg);
+        width: 800px;
+        height: 800px;
+       
+}
+
+.skills{
+        padding: 30xp;
+        text-align: left;
+        
+}
+.skill1{
+        margin-left: 250px;
+        font-weight: bold;
+}
+
+.p1about{
+        text-align: center;
+}
+.mainservice{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+}
+.service1{
+      
+        padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
+        
+        border-top: 2px solid #ffff00;
+        box-shadow: black;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service1:hover{
+        transform: translateY(-20px) ;
+        transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
+}
+.service2{
+        
+        padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
+        border-top: 2px solid #0000ff;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service2:hover{
+        transform: translateY(-20px) ;  
+        transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue; 
+        margin-top: 25px;  
+}
+.service3{
+        
+        padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
+        border-top: 2px solid #ff0000;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service3:hover{
+        transform: translateY(-20px) ;
+        transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
+        margin-top: 25px;  
+}
+.service4{
+       
+        padding: 20px;
+        background-color: rgb(150 150, 163);
+        border-radius: 5px;
+        border-top: 2px solid #00ff00;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+}
+.service4:hover{
+        transform: translateY(-20px) ;
+        transition: transform 0.3s ease;
+        background-color: transparent;
+        padding: 40px;
+        color: aliceblue;
+        margin-top: 25px;  
+}
+.h1service{
+        text-align: center;
+        margin-top: 100px; 
+        color:aliceblue;;
+}
+hr{
+        width: 200px;
+       border: 1.5px solid rgb(107, 149, 179);
+}
+
+.mainp1{
+        /* display: flex; */
+        padding: 30px;
+        margin: 0 20px;
+        background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
+}
+.mainp2{
+        /* display: flex; */
+        padding: 30px;
+        margin: 0 20px;
+        background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
+
+}
+.mainp3{
+        /* display: flex; */
+        padding: 30px;
+        margin: 0 20px;
+        background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
+}
+.mainp5{
+        padding: 30px; 
+        margin: 0 20px;  
+        background-color: #9babb6; 
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px; 
+}
+.mainp4{
+        /* display: flex; */
+        padding: 30px;
+        margin: 0 20px;
+        background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
+}
+.mainp6{
+        padding: 30px;
+        margin: 0 20px;
+        background-color: #9babb6;
+        box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
+        border-radius: 6px;
+}
+h1{
+        text-align: center;
+        
+}
+.h2{
+        text-align: center;
+        color: rgb(62, 65, 62);
+}
+.projecth1{
+        margin-top: 120px;
+}
+#projects{
+        display: flex;
+}
+#thirdprojects{
+        display: flex;
+        margin-top: 20px;
+}
+
+
+
+.p2{
+        margin-top: -25px;
+}
+#pragraph1,#pragraph2,#pragraph3,#pragraph4,#pragraph5,#pragraph6{
+        text-align: center;
+}
+#linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(15, 15, 49);
+        background: rgb(61, 60, 128);
+        margin: 5px 140px;
+        border-radius: 30px;
+        box-shadow: 0px 5px 5px 0px black;
+        
+}
+
+#linkproject1:hover, #linkproject2:hover, #linkproject3:hover, #linkproject4:hover, #linkproject5:hover, #linkproject6:hover{
+        
+        border-radius: 30px;
+        background-color: #9babb6;
+        border: 2px solid blue;
+        
+        
+}
+
+.p1 img{
+        transition: transform 0.3s ease;
+}
+.p1:hover img{
+        transform: translateY(20px);
+}
+.p2 img{
+        transition: transform 0.3s ease;
+}
+.p2:hover img{
+       
+        transform: translateY(20px);
+}
+
