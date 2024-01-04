@@ -55,12 +55,16 @@
         .skills p{
                 margin-left: 300px;
         }
+        .h2contact, .h3contact{
+                text-align: center;
+                font-size: small;
+        }
 
       
       
         
       
-      }
+}
 
 @media(max-width:460px){
         div .mailcall{
@@ -374,7 +378,8 @@ background-color: rgb(21, 117, 85);
         right: ;
 } */
 .mailcall{
-width: 450px;
+/* width: 450px; */
+width: 55vh;
 height: 200px;
 background-color: rgb(225, 197, 197);
 margin-left: 35px;
@@ -402,7 +407,7 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
      
 .contact2{
-        width: 450px;
+        width: 55vh;
         height: 720px;
         background-color: rgb(225, 197, 197);
         border-radius: 10px;
@@ -419,7 +424,7 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
         font-weight: bold;
 }
 .Maincontact{
-        justify-content: space-around;
+        justify-content: space-between;
         display: flex;
         margin-top: 10rem;
 }
