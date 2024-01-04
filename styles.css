@@ -38,9 +38,24 @@
                 text-align: center;
 
         } */
-        .h2contact{
-                text-align: center;
+        .about1{
+                font-size: 12px;
+                width: 300px;
+                padding: 40px;
+              
         }
+        div .about2{
+                background-image: none;
+                background-color: rgb(193, 193, 210);
+                align-items: center;
+                margin-top: 20px;
+        }
+        .skills p{
+                margin-left: 300px;
+        }
+
+      
+      
         
       
       }
@@ -54,6 +69,7 @@
         
 
     } 
+    
        
 }
 @media (max-width: 508px){
@@ -65,6 +81,7 @@
                 
         
         } 
+       
 }
 @media(max-width: 537px){
         .mailcall{
@@ -434,6 +451,7 @@ textarea{
 .skill1{
         margin-left: 250px;
         font-weight: bold;
+        font-size: 2em;
 }
 
 .p1about{
@@ -457,7 +475,7 @@ textarea{
 .service1:hover{
         transform: translateY(-20px) ;
         transition: transform 0.3s ease;
-        background-color: transparent;
+        background-color: rgb(15, 15, 49);
         padding: 40px;
         color: aliceblue;
 }
@@ -472,7 +490,7 @@ textarea{
 .service2:hover{
         transform: translateY(-20px) ;  
         transition: transform 0.3s ease;
-        background-color: transparent;
+        background-color: rgb(15, 15, 49);
         padding: 40px;
         color: aliceblue; 
         margin-top: 25px;  
@@ -488,7 +506,7 @@ textarea{
 .service3:hover{
         transform: translateY(-20px) ;
         transition: transform 0.3s ease;
-        background-color: transparent;
+        background-color: rgb(15, 15, 49);
         padding: 40px;
         color: aliceblue;
         margin-top: 25px;  
@@ -504,7 +522,7 @@ textarea{
 .service4:hover{
         transform: translateY(-20px) ;
         transition: transform 0.3s ease;
-        background-color: transparent;
+        background-color: rgb(15, 15, 49);
         padding: 40px;
         color: aliceblue;
         margin-top: 25px;  
