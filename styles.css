@@ -60,6 +60,37 @@
       
       }
 
+@media(max-width:460px){
+        div .mailcall{
+                /* margin-left: 20px; */
+                width: 350px;
+
+        }
+        div .contact2{
+                margin-top: 20px;
+                width: 350px;
+        }
+
+      }
+@media(max-width:651px){
+        .Maincontact{
+                font-size: 13px;
+        }
+        div .contact2{
+                margin-top: 20px;
+                width: 400px;
+        }
+        form{
+                margin-left: 10px;
+
+        }
+        div .mailcall{
+                margin-left: 20px;
+                width: 400px;
+
+        }
+}
+
 @media(max-width:579px){
     .p1 img{
         width: 400px;
@@ -99,6 +130,7 @@
                 flex-direction: column;
                 align-items: center;
         }
+        
         .mainservice{
                 flex-direction: column;
         }
@@ -362,7 +394,7 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 .spanemail{
         color: blue;
 }
-.h2contact{
+.h2contact, .h3contact{
         margin-left: 35px;
         color: aliceblue;
 }
