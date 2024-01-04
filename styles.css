@@ -96,17 +96,20 @@
                 
         
         }
-        #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6 {
-                float: left;
-                align-items: center;
-                margin-left: -150px;
+        #linkproject1  a, #linkproject2 a, #linkproject3 a, #linkproject4 a, #linkproject5 a, #linkproject6 a {
+                float: left; 
+                align-items: start;
+                margin-left: -150px; 
                 background-color: transparent;
-                text-align: left;
-                padding-right: 100px;
-                /* display: inline-block; */
+                 text-align: left;
+                padding-right: 100px; 
+                /* display: inline-block;*/
         }
-
+        .mainp1, .mainp2, .mainp3, .mainp4, .mainp5, .mainp6{
+                height: 400px;
+        }
 }
+        
 
 
 
@@ -277,7 +280,7 @@ font-size: 20px;
       }
 
  .social1:hover, .social2:hover, .social3:hover, .social4:hover{
-        background-color: rgb(0, 0, 255);
+        /* background-color: rgb(0, 0, 255); */
  }     
       /*.social1:hover{
 background-color: rgb(21, 117, 85);
@@ -330,7 +333,7 @@ border: 2px solid blue;
 box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .mailcall:hover{
-        background-color:rgb(61, 119, 160);
+        /* background-color:rgb(61, 119, 160); */
         /* background-color: rgb(30, 30, 109); */
         
 }
@@ -356,7 +359,7 @@ box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
         box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
 }
 .contact2:hover{
-        background: rgb(61, 119, 160);
+        /* background: rgb(61, 119, 160); */
 }
 
 #nameError, #emailError, #phoneError, #subjectError, #messageError{
@@ -593,11 +596,11 @@ h1{
 #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
         text-align: center;
         padding: 15px;
-        border: 1px solid rgb(15, 15, 49);
-        background: rgb(61, 60, 128);
+        /* border: 1px solid rgb(15, 15, 49); */
+        /* background: rgb(61, 60, 128); */
         margin: 5px 140px;
         border-radius: 30px;
-        box-shadow: 0px 5px 5px 0px black;
+        /* box-shadow: 0px 5px 5px 0px black; */
         
 }
 
