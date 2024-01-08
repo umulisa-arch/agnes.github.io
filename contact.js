@@ -59,6 +59,13 @@ document.getElementById('sendButton').addEventListener('click', function () {
   }
 });
 
+//navigation responsiveness
+function myFunction(){
+    var navbar = document.getElementById('nav');
+    navbar.classList.toggle('show')
+
+}
+
 
   //for alert message after sending a message
 

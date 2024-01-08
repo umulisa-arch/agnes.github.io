@@ -13,3 +13,10 @@ window.addEventListener('load', function() {
         homePhoto.style.boxShadow = '0 0 10px 5px rgba(0, 0, 250, 0.5)'; // Return to blue after cycling through other colors
     }, 35000); // Wait for 5 colors (25 seconds) then return to blue
 });
+//navigation responsiveness
+
+function myFunction(){
+    var navbar = document.getElementById('nav');
+    navbar.classList.toggle('show')
+
+}

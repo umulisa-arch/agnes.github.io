@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>About page</title>
+    <title>About</title>
 </head>
 <body>
 
-    <div id="links">
-        <div><img src="images/mylogo_1.png" alt="Logo" class="logo"></div>
     <header>
-        
-        <a href="index.html" id="a1">HOME</a>
-        <a href="about.html" id="a2" class="link">ABOUT ME</a>
-        <a href="contact.html" id="a3">CONTACT</a>
-        <a href="services.html" id="a4" >SERVICES</a>
-        <a href="projects.html" id="a5" >PROJECTS</a>
-        <a href="Cv.pdf" id="a6" title="View/Download my CV">My CV <svg xmlns="http://www.w3.org/2000/svg" height="1em"  viewBox="0 0 512 512"><!--! - Commercial2023 Fonticons, Inc. --><path fill="#ffffff" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg></i></a>
-        
-    </header>
+        <div class="toggle-btn" onclick="myFunction();">
+            <span></span>
+            <span></span>
+            <span></span>
 
-   </div>
+        </div>
+        <div class="logo">
+            <img src="images/mylogo_1.png" alt="logo">
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html" class="list">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="Cv.pdf">My cv</a></li>
+            </ul>
+        </nav>
+    </header> 
    <div class="MainAbout">
    <div class="about1">
 <h1>About me</h1>
-<p class="p1about">I am your designer solution. <br> My mission is to help people to <br>
-     design their sites <br> either used individually orused in a given <br>
+<p class="p1about">I am your designer solution. My mission is to help people to <br>
+     design their sites either used individually orused in a given <br>
     company where i am also goot at product  <br>
     and user experince design
     </p>
     <h1>Personal statement</h1>
     <p class="p1about">
-    I am a good timekeeper , <br> always willing to learn new skills. 
-     <br>I am friendly, helpful and polite,  <br>have a good sense 
-    of humuor. <br> I am able to work independetly in busy <br>environments and also within a team setting .
+    I am a good timekeeper , always willing to learn new skills. 
+     <br>I am friendly, helpful and polite, have a good sense <br>
+    of humuor. I am able to work independetly in busy <br>environments and also within a team setting .
      <br>I am outgoing and tactful, and able <br> to listen effectively when solving problems
 </p>
 
@@ -50,7 +57,7 @@
    </div>
    <div class="about2"> <br><br>
     <span class="skills">
-    <p class="skill1"><b>My skills</b></p>
+    <p style="margin-left: 250px; font-size: 25px;"><b>My skills</b></p>
     <p class="skill1"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00ff00" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>Html</p>
     <p class="skill1"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00ff00" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>CSS</p>
     <p class="skill1"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#00ff00" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>Javascript</p>
@@ -70,5 +77,14 @@
     +250 780 591 875
 </p> 
 </div>
+
+<script src="home.js">
+    function myFunction(){
+       var navbar = document.getElementById('nav');
+       navbar.classList.toggle('show')
+
+   }
+  
+</script>
 </body>
 </html>
