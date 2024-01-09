@@ -147,6 +147,12 @@ header{
         .mailcall{
                 margin-left: 25px;
         }
+        .about1 p{
+            font-size: 25%;
+        }
+        .about1 h1{
+            font-size: 25%;
+        }
     }
     @media(max-width:926px){
         .MainAbout{
@@ -164,6 +170,20 @@ header{
         }
     
     }
+@media(max-width:845px){
+    div .about2{
+        background-image: none;
+        background-color: rgb(193, 193, 210);
+        margin-top: 10%;
+       
+
+}
+.about2 p{
+    margin-left: 50%;
+    padding-top: 5%;
+}
+}
+   
     
     
     
@@ -458,7 +478,13 @@ header{
     .skills{
         padding: 30xp;
         text-align: left;
+       
         
+        
+    }
+    .skilltitle{
+        padding: 30xp;
+       margin-left: 30%;
     }
     .skill1{
         margin-left: 250px;
@@ -643,6 +669,12 @@ header{
         color: white;
     }
     #linkproject4 a{
+        color: white;
+    }
+    #linkproject5 a{
+        color: white;
+    }
+    #linkproject6 a{
         color: white;
     }
     
