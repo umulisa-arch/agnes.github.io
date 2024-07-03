@@ -577,7 +577,7 @@ header{
     .mainp1{
         /* display: flex; */
         padding: 30px;
-        margin: 0 20px;
+        margin: 0 10px;
         background-color: #9babb6;
         box-shadow: 0 5px  5px 5px rgba(46, 48, 49, 0.5);
         border-radius: 6px;
@@ -647,6 +647,7 @@ header{
     }
     #pragraph1,#pragraph2,#pragraph3,#pragraph4,#pragraph5,#pragraph6{
         text-align: center;
+        
     }
     #linkproject1, #linkproject2, #linkproject3, #linkproject4, #linkproject5, #linkproject6{
         text-align: center;
