@@ -1,2 +1,2 @@
 # My_Portifolio
-this project is all about my portiflio where i am trying to make it more professional and i will host it at the end.
+Hi there! 👋 I'm Agnes RUKUNDO, a passionate frontend developer dedicated to building innovative solutions and learning new technologies. 
